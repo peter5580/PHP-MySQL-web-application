@@ -8,3 +8,4 @@ Web application for submission for site progress of construction project. Click 
 - filter record by storey and submission status
 
 ## ER Diagram
+![DataBase Schema](schema.png)
