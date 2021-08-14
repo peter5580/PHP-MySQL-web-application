@@ -1,0 +1,129 @@
+@charset 'UTF-8';
+
+body {
+    border: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.header_text {
+    margin: 0;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: italic;
+    font-size: 40px;
+    color: navy;
+}
+
+nav {
+    background-color: navy;
+    float: left;
+    min-height: 100%;
+    position: fixed;
+    top: 115px;
+    width: 15%;
+}
+
+.menuitem {
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: fit-content;
+}
+
+.menutext {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+#userfield {
+    background-color: navy;
+    height: 40px;
+}
+
+#userfield span {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.inner-page {
+    padding: 20px;
+    margin-left: 15%;
+    position: absolute;
+    top: 118px;
+    z-index: -1;
+    width: 100%;
+}
+
+.inner-page > h2 {
+    margin-top: 0px;
+}
+
+.table-header-row {
+    background-color: navy;
+}
+
+.input-data {
+    width: 100%;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+#date-input {
+    text-align: center;
+}
+
+#submit_btn, #approve_btn {
+    width: 100%;
+    background-color: rgb(124, 193, 240);
+    border-style: outset;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#gridX-input1 , #gridX-input2, #gridY-input1, #gridY-input2 {
+    width: 18%;
+    box-sizing: border-box;
+    height: 25px;
+    text-align: center;
+}
+
+td {
+    width: 200px;
+    text-align: center;
+}
+
+th {
+    width: 200px;
+    color: white;
+}
+
+#logoutBtn {
+    float: right;
+    right: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+iframe {
+    height: 600px;
+    width: 1225px;
+}
+
+.filter {
+    width: 75px;
+    text-align: center;
+}
