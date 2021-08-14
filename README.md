@@ -7,5 +7,23 @@ Web application for submission for site progress of construction project. Click 
 - Users can check their submitted record
 - filter record by storey and submission status
 
-## ER Diagram
+## Login Accounts
+<table>
+<thead>
+<tr>
+<th>Username</th>
+<th>Password</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>admin123</td>
+<td>321admin</td>
+<td>Administrator</td>
+</tr>
+</tbody>
+</table>
+
+## Database Schema
 ![DataBase Schema](schema.png)
